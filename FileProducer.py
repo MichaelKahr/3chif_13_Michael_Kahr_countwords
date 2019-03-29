@@ -2,7 +2,6 @@ import threading
 import queue
 import os
 
-
 class Book():
     def __init__(self, filename,text):
         self.filename = filename
