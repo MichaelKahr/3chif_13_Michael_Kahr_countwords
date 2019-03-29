@@ -1,5 +1,6 @@
 import threading
 import queue
+import json
 
 class FileConsumer(threading.Thread):
     def __init__(self,name,queue,condition):
@@ -23,5 +24,5 @@ class FileConsumer(threading.Thread):
             if book!="":
                 res = book.countWords()
                 out_file = open("./output/"+book.filename+"-output.txt","w")
-                out_file.write(str(res))
+                out_file.write(json.dumps(res,indent=2))
                 out_file.close()
