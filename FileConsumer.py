@@ -17,9 +17,8 @@ class FileConsumer(threading.Thread):
                 book = self.queue.get(block=False)
                 self.condition.notify()
             except queue.Empty:
-                #print(self.name+": queue empty. waiting.")
+                print(self.name+": queue empty. waiting.")
                 self.condition.wait()
-                #print(self.name+": continue")
             self.condition.release()
             if book!="":
                 res = book.countWords()
