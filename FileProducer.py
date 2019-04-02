@@ -1,6 +1,7 @@
 import threading
 import queue
 import os
+import re
 
 class Book():
     def __init__(self, filename,text):
@@ -11,6 +12,7 @@ class Book():
         words = {}
         for x in self.text.split(" "):
             x = x.split("\n")[0]
+            x = re.sub('\ |\?|\.|\!|\/|\;|\:', '', x)
             if x in words:
                 words[x]+=1
             else:
