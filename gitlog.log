@@ -1,0 +1,107 @@
+commit 4462214830d739076873ecc96dc875a7d2c9ea81
+Author: Michael Kahr <mikey.kahr@gmail.com>
+Date:   Tue Apr 2 20:04:43 2019 +0200
+
+    added output files
+
+commit 4c0bb92ba3634b7287de63bc77c6e058c48244db
+Author: Michael Kahr <mikey.kahr@gmail.com>
+Date:   Tue Apr 2 19:45:29 2019 +0200
+
+    changed test methods to be both sucessfull in order to have a positive travis result
+
+commit 7ddcfae84e6f6fc1a42c4735a7b59becd85da927
+Author: Michael Kahr <mikey.kahr@gmail.com>
+Date:   Tue Apr 2 19:43:41 2019 +0200
+
+    changed countWords method to use a regex to be more efficient
+
+commit 42a8f44943fceccdb43b111061014b0706d0f3f6
+Author: Michael Kahr <mikey.kahr@gmail.com>
+Date:   Tue Apr 2 19:17:21 2019 +0200
+
+    implemented two unit tests. one should be successful and one should fail (exception gets thrown)
+
+commit 681dab1df38b3452768d6f56f6dce2a68543dca7
+Author: Michael Kahr <mikey.kahr@gmail.com>
+Date:   Tue Apr 2 19:16:31 2019 +0200
+
+    removed comments and added some replaces to clear the text. takes a bit longer to run now
+
+commit bb2b052f7fb9a3d0de01e9ea815d10d77ff64d24
+Author: Michael Kahr <mikey.kahr@gmail.com>
+Date:   Tue Apr 2 19:08:11 2019 +0200
+
+    updated the main to use more consumer
+
+commit cd0b8736532fe42761a29bd33507c750c0e36594
+Author: Michael Kahr <mikey.kahr@gmail.com>
+Date:   Mon Apr 1 08:09:36 2019 +0200
+
+    small changes
+
+commit cb08809243becf9fd63750468d2634e01c4bfc35
+Author: Michael Kahr <mikey.kahr@gmail.com>
+Date:   Fri Mar 29 18:23:47 2019 +0100
+
+    removed import and added to tests
+
+commit 63b413161d60ac2055c71fd626246fc5f357a4d6
+Author: Michael Kahr <mikey.kahr@gmail.com>
+Date:   Fri Mar 29 18:20:06 2019 +0100
+
+    created unit test file but no tests implemented yet
+
+commit daeb77b6e59592b7f7d36681c0af9ddad1f1651c
+Author: Michael Kahr <mikey.kahr@gmail.com>
+Date:   Fri Mar 29 18:04:18 2019 +0100
+
+    imported the json module and formatted the written output to be more readable (new line after every word)
+
+commit ced5843edae358a51a021773ef25c39851e210e3
+Author: Michael Kahr <mikey.kahr@gmail.com>
+Date:   Fri Mar 29 17:53:50 2019 +0100
+
+    code formatting
+
+commit baf821103eb16756057adc69f403605ecc298706
+Author: Michael Kahr <mikey.kahr@gmail.com>
+Date:   Fri Mar 29 17:52:46 2019 +0100
+
+    just a file where i test small things to see if they work
+
+commit 38d6cf76e7f87499676c25ceaa8f6977c07beca9
+Author: Michael Kahr <mikey.kahr@gmail.com>
+Date:   Fri Mar 29 17:52:27 2019 +0100
+
+    implemented the "main" class
+
+commit 438456b666abc68df046f65fc98b5a65ad6a4950
+Author: Michael Kahr <mikey.kahr@gmail.com>
+Date:   Fri Mar 29 17:52:13 2019 +0100
+
+    implemented the producer class
+
+commit 7c8e2ef8ebd26f252bb3948753f50b3c84b2278d
+Author: Michael Kahr <mikey.kahr@gmail.com>
+Date:   Fri Mar 29 17:51:50 2019 +0100
+
+    implemented the consumer class. TODO: format the output
+
+commit 7e89ef81e19db16b50dcce9d84abc49e489a160a
+Author: Michael Kahr <mikey.kahr@gmail.com>
+Date:   Fri Mar 29 12:06:13 2019 +0100
+
+    created travis file
+
+commit a5b15feb9e77090758e0c6bd898fc6f7670ed0ea
+Author: Michael Kahr <mikey.kahr@gmail.com>
+Date:   Fri Mar 29 12:03:53 2019 +0100
+
+    created files
+
+commit 57743cd82085caffb51cb8cf6abf9f2857332ade
+Author: Michael Kahr <40028606+MichaelKahr@users.noreply.github.com>
+Date:   Fri Mar 29 11:43:17 2019 +0100
+
+    Initial commit
