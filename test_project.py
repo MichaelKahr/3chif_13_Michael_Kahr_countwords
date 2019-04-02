@@ -15,7 +15,7 @@ class test_Book(unittest.TestCase):
         test_string2 = "this is also a test!!"
         book2 = Book('test_name2',test_string2)
         book2_dict = book2.countWords()
-        test_dict2 = {'this':1,'is':1, 'also':1, 'a':1,'test!!':1}
+        test_dict2 = {'this':1,'is':1, 'also':1, 'a':1,'test':1}
         self.assertDictEqual(test_dict2,book2_dict)
 
 if __name__ == '__main__':
